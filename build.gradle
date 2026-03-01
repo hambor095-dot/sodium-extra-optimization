@@ -31,6 +31,8 @@ loom {
 }
 
 dependencies {
+	modImplementation "net.fabricmc.fabric-api:fabric-api:0.102.0+1.21.1"
+	
 	// To change the versions see the gradle.properties file
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	mappings loom.officialMojangMappings()
